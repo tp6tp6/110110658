@@ -4,7 +4,9 @@
 
 {% block content %}
   <h1>留言板</h1>
-  <p>你有 <strong>{{ posts.length }}</strong> 則留言!</p>
+  <p>你有 <strong>{{ posts.length }}</strong> 則留言!
+  <a href="https://tp6tp6.github.io/homework/p1.html">主頁</a>
+  </p>
   <p><a href="/post/new">Create a Post</a></p>
   <ul id="posts">
     {% for post in posts %}
